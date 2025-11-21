@@ -65,7 +65,7 @@
             <Entry x:Name="searchEntry"
                    Grid.Column="0"
                    Margin="10,0,0,0"
-                   Placeholder="Buscar por nombre o apellidos"
+                   Placeholder="Buscar por nombre o apellido"
                    BackgroundColor="Transparent"
                    VerticalOptions="Center"
                    TextColor="Black"

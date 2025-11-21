@@ -35,7 +35,7 @@
         <VerticalStackLayout Margin="0,10,0,0" Spacing="10">
 
             <!-- Nombres y Apellidos -->
-            <Label Text="Nombres y Apellidos"
+            <Label Text="Nombres y apellidos"
                    FontSize="16"
                    FontAttributes="Bold"
                    TextColor="Black"
@@ -56,7 +56,7 @@
             </Border>
 
             <!-- Fecha de Nacimiento -->
-            <Label Text="Fecha de Nacimiento"
+            <Label Text="Fecha de nacimiento"
                    FontSize="16"
                    FontAttributes="Bold"
                    TextColor="Black"
