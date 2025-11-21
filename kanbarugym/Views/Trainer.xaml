@@ -51,7 +51,7 @@
  </Border.Shadow>
  </Border>
 
- <Entry x:Name="searchEntry" Grid.Column="0" Placeholder="Buscar por nombre o apellidos" BackgroundColor="Transparent" VerticalOptions="Center" Margin="10,0,0,0" TextColor="Black" Text="{Binding SearchText, Mode=TwoWay, UpdateSourceEventName=TextChanged}" />
+ <Entry x:Name="searchEntry" Grid.Column="0" Placeholder="Buscar por nombre o apellido" BackgroundColor="Transparent" VerticalOptions="Center" Margin="10,0,0,0" TextColor="Black" Text="{Binding SearchText, Mode=TwoWay, UpdateSourceEventName=TextChanged}" />
 
  <Button Grid.Column="1" ImageSource="search.png" WidthRequest="50" HeightRequest="50" BackgroundColor="Transparent" Margin="0,0,10,0" />
  </Grid>
@@ -101,6 +101,7 @@
  <Label Text="{Binding Especialidad}" TextColor="White" FontSize="18" />
  <Label Text="{Binding Experiencia, StringFormat='Experiencia: {0} años'}" TextColor="White" FontSize="18" />
  <Label Text="{Binding FechaNacimiento, Converter={StaticResource AgeFromBirthdateConverter}, StringFormat='Edad: {0} años'}" TextColor="White" FontSize="18" />
+                                <Label Text="{Binding Sexo}" TextColor="White" FontSize="18"></Label>
  </VerticalStackLayout>
  </Border>
  </Grid>

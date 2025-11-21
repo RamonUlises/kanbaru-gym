@@ -34,7 +34,7 @@
     <ScrollView>
 
         <VerticalStackLayout Margin="0,10,0,0">
-            <Label Text="Nombres y Apellido"
+            <Label Text="Nombres y apellidos"
                    FontSize="16"
                    FontAttributes="Bold"
                    TextColor="Black"
@@ -62,7 +62,7 @@
                        ClearButtonVisibility="WhileEditing"/>
             </Border>
 
-            <Label Text="Fecha de Nacimiento"
+            <Label Text="Fecha de nacimiento"
                    FontSize="16"
                    FontAttributes="Bold"
                    TextColor="Black"
@@ -138,7 +138,7 @@ HorizontalOptions="End"
 Margin="5,0,5,0"/>
                 </Grid>
             </Border>
-            <Label Text="Correo lectrónico"
+            <Label Text="Correo electrónico"
        FontSize="16"
        FontAttributes="Bold"
        TextColor="Black"

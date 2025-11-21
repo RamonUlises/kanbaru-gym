@@ -57,7 +57,7 @@
                    Padding="15">  
                 <StackLayout>  
                     <Label Text="{Binding NuevoCliente.Title}" FontSize="16" TextColor="White" FontAttributes="Bold"/>  
-                    <Label Text="{Binding NuevoCliente.Tag}" TextColor="White" FontSize="10"/>  
+                    <Label Text="{Binding NuevoCliente.Tag}" TextColor="White" FontSize="10" TextTransform="Uppercase"/>  
                     <Label Text="{Binding NuevoCliente.DateText}" TextColor="White" FontSize="10"/>  
                     <Label Text="{Binding NuevoCliente.Name}" TextColor="White" FontSize="14" Margin="0,15" FontAttributes="Bold"/>  
                 </StackLayout>  
@@ -70,7 +70,7 @@
                    Padding="15">  
                 <StackLayout>  
                     <Label Text="{Binding ClienteFiel.Title}" FontSize="16" TextColor="White" FontAttributes="Bold"/>  
-                    <Label Text="{Binding ClienteFiel.Tag}" TextColor="White" FontSize="10"/>  
+                    <Label Text="{Binding ClienteFiel.Tag}" TextColor="White" FontSize="10" TextTransform="Uppercase"/>  
                     <Label Text="{Binding ClienteFiel.DateText}" TextColor="White" FontSize="10"/>  
                     <Label Text="{Binding ClienteFiel.Name}" TextColor="White" FontSize="14" Margin="0,15" FontAttributes="Bold"/>  
                 </StackLayout>  
@@ -84,7 +84,7 @@
                    >  
                 <StackLayout>  
                     <Label Text="{Binding TerminaPronto.Title}" FontSize="16" TextColor="White" FontAttributes="Bold"/>  
-                    <Label Text="{Binding TerminaPronto.Tag}" TextColor="White" FontSize="10"/>  
+                    <Label Text="{Binding TerminaPronto.Tag}" TextColor="White" FontSize="10" TextTransform="Uppercase"/>  
                     <Label Text="{Binding TerminaPronto.DateText}" TextColor="White" FontSize="10"/>  
                     <Label Text="{Binding TerminaPronto.Name}" TextColor="White" FontSize="14" Margin="0,15" FontAttributes="Bold"/>  
                 </StackLayout>  
@@ -97,7 +97,7 @@
                    Padding="15">  
                 <StackLayout>  
                     <Label Text="{Binding Terminada.Title}" FontSize="16" TextColor="White" FontAttributes="Bold"/>  
-                    <Label Text="{Binding Terminada.Tag}" TextColor="White" FontSize="10"/>  
+                    <Label Text="{Binding Terminada.Tag}" TextColor="White" FontSize="10" TextTransform="Uppercase"/>  
                     <Label Text="{Binding Terminada.DateText}" TextColor="White" FontSize="10"/>  
                     <Label Text="{Binding Terminada.Name}" TextColor="White" FontSize="14" Margin="0,15" FontAttributes="Bold"/>  
                 </StackLayout>  

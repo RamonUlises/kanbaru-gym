@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="kanbarugym.Views.RegstrarMembresia"
-             Title="RegstrarMembresia"
+             Title="RegstrarMembresía"
              Padding="20,0">
 
 
@@ -120,7 +120,7 @@
         </Border>
 
 
-        <Label Text="Membresia"
+        <Label Text="Membresía"
                    FontSize="16"
                    FontAttributes="Bold"
                    TextColor="Black"
